@@ -2,7 +2,15 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "nothub-purple": "5267DF",
+        "notehub-red": "#FA5959",
+        "notehub-blue": "#242A45",
+        "notehub-grey": "#9194A2",
+        "notehub-white": "#f7f7f7"
+      }
+    },
     container: {
       center: true,
       padding: "1rem",
