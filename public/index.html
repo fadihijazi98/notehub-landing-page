@@ -10,15 +10,65 @@
 	<title>note hub</title>
 
 	<link rel="stylesheet" href="style.css" />
+
+	<!-- fonts.google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Righteous&display=swap"
+		rel="stylesheet">
 </head>
 
 <body>
 	<!-- START HEADER -->
 	<header>
-		<nav class="container">
-			<h1>content</h1>
+		<nav class="container flex items-center py-4 mt-4 sm:mt-12 border-b-2">
+			<!-- logo -->
+			<div class="py-1 font-Merienda text-2xl text-nothub-purple">
+				Note
+				<span class="text-notehub-grey">
+					Hub
+				</span>
+			</div>
+
+			<!--  MENU ITEMS -->
+			<ul
+				class="sm:flex flex-1 justify-end items-center gap-12 font-Righteous tracking-widest text-notehub-blue uppercase text-xs hidden">
+				<li>
+					<a href="#">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Market
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Frequent questions
+					</a>
+				</li>
+				<li>
+					<a href="#" class="bg-notehub-red text-white p-3 rounded-sm click:bg-red-600">
+						login
+					</a>
+				</li>
+			</ul>
+
+			<div class="sm:hidden flex flex-1 justify-end">
+				<button class="mx-7">
+					<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="bars" role="img"
+						xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-5 text-notehub-red">
+						<path fill="currentColor"
+							d="M442 114H6a6 6 0 0 1-6-6V84a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6z"
+							class=""></path>
+					</svg>
+
+				</button>
+			</div>
 		</nav>
 	</header>
+
 
 	<!-- END HEADER -->
 </body>

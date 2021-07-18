@@ -4,12 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "nothub-purple": "5267DF",
+        "nothub-purple": "#5267DF",
         "notehub-red": "#FA5959",
         "notehub-blue": "#242A45",
         "notehub-grey": "#9194A2",
         "notehub-white": "#f7f7f7"
       }
+    },
+    fontFamily: {
+      Merienda: ["Merienda"],
+      Righteous: ["Righteous"],
     },
     container: {
       center: true,
