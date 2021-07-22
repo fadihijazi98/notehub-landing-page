@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'build:tailwind' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose run-script [ 'prebuild:tailwind', 'build:tailwind', 'postbuild:tailwind' ]
+5 info lifecycle landingpage_tailwindcss@1.0.0~prebuild:tailwind: landingpage_tailwindcss@1.0.0
+6 silly lifecycle landingpage_tailwindcss@1.0.0~prebuild:tailwind: no script for prebuild:tailwind, continuing
+7 info lifecycle landingpage_tailwindcss@1.0.0~build:tailwind: landingpage_tailwindcss@1.0.0
+8 verbose lifecycle landingpage_tailwindcss@1.0.0~build:tailwind: unsafe-perm in lifecycle true
+9 verbose lifecycle landingpage_tailwindcss@1.0.0~build:tailwind: PATH: /usr/share/npm/bin/node-gyp-bin:/mnt/c/xampp/htdocs/landingpage_tailwindcss/node_modules/.bin:/home/fadi/.asdf/shims:/home/fadi/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/xampp/php:/mnt/c/composer:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/FadiH/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/c/Users/FadiH/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/FadiH/AppData/Roaming/npm:/mnt/d/PhpStorm 2021.1.4/bin:/home/fadi/.fzf/bin
+10 verbose lifecycle landingpage_tailwindcss@1.0.0~build:tailwind: CWD: /mnt/c/xampp/htdocs/landingpage_tailwindcss
+11 silly lifecycle landingpage_tailwindcss@1.0.0~build:tailwind: Args: [ '-c', 'tailwind build src/style.css -o public/style.css' ]
+12 silly lifecycle landingpage_tailwindcss@1.0.0~build:tailwind: Returned: code: 1  signal: null
+13 info lifecycle landingpage_tailwindcss@1.0.0~build:tailwind: Failed to exec build:tailwind script
+14 verbose stack Error: landingpage_tailwindcss@1.0.0 build:tailwind: `tailwind build src/style.css -o public/style.css`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at EventEmitter.emit (events.js:214:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at ChildProcess.emit (events.js:214:7)
+14 verbose stack     at maybeClose (internal/child_process.js:925:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+15 verbose pkgid landingpage_tailwindcss@1.0.0
+16 verbose cwd /mnt/c/xampp/htdocs/landingpage_tailwindcss
+17 error Linux 4.4.0-19041-Microsoft
+18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "build:tailwind"
+19 error node v8.10.0
+20 error npm  v3.5.2
+21 error code ELIFECYCLE
+22 error landingpage_tailwindcss@1.0.0 build:tailwind: `tailwind build src/style.css -o public/style.css`
+22 error Exit status 1
+23 error Failed at the landingpage_tailwindcss@1.0.0 build:tailwind script 'tailwind build src/style.css -o public/style.css'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the landingpage_tailwindcss package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     tailwind build src/style.css -o public/style.css
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs landingpage_tailwindcss
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls landingpage_tailwindcss
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
